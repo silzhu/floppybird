@@ -480,3 +480,5 @@ var isIncompatible = {
    return (isIncompatible.Android() || isIncompatible.BlackBerry() || isIncompatible.iOS() || isIncompatible.Opera() || isIncompatible.Safari() || isIncompatible.Windows());
    }
 };
+// After the player loses and the score is final
+Qualtrics.SurveyEngine.setEmbeddedData("game_score", currentScore);
